@@ -18,6 +18,8 @@ $liepaja = $kurzeme->addMenu('Liepaja');
 $ventspils = $kurzeme->addMenu('Ventspils');
 $jurmala = $vidzeme->addMenu('Jurmala');
 $daugavpils =$latgale->addMenu('Daugavpils');
+$jelgava =$zemgale->addMenu('Jelgava');
+
 
 /*$ventspils = $kurzeme->addMenu('Ventspils');
 $liepaja = $kurzeme->addMenu('Liepaja');
