@@ -10,11 +10,19 @@ $county = $attractions->addMenu('County');
 
 $kurzeme = $county->addMenu('Kurzeme');
 $zemgale = $county->addMenu('Zemgale');
-$vidzeme = $county->addMenu('Vīdzeme');
+$vidzeme = $county->addMenu('Vidzeme');
 $latgale = $county->addMenu('Latgale');
 
-$ventspils = $kurzeme->addMenu('Ventspils');
-$liepaja = $kurzeme->addMenu('Ventspils');
-$riga = $vidzeme->addMenu('Rīga');
-$jurmala = $vidzeme->addMenu('Jūrmala');
-$daugavpils = $zemgale->addMenu('Daugavpils');
+$town = $attractions->addMenu('Town');
+
+$riga = $town->addMenu('Riga');
+$liepaja = $town->addMenu('Liepaja');
+$ventspils = $town->addMenu('Ventspils');
+$jurmala = $town->addMenu('Jurmala');
+$daugavpils =$town->addMenu('Daugavpils');
+
+/*$ventspils = $kurzeme->addMenu('Ventspils');
+$liepaja = $kurzeme->addMenu('Liepaja');
+$riga = $vidzeme->addMenu('Riga');
+$jurmala = $vidzeme->addMenu('Jurmala');
+$daugavpils = $zemgale->addMenu('Daugavpils');*/
