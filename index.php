@@ -13,13 +13,11 @@ $zemgale = $county->addMenu('Zemgale');
 $vidzeme = $county->addMenu('Vidzeme');
 $latgale = $county->addMenu('Latgale');
 
-$town = $attractions->addMenu('Town');
-
-$riga = $town->addMenu('Riga');
-$liepaja = $town->addMenu('Liepaja');
-$ventspils = $town->addMenu('Ventspils');
-$jurmala = $town->addMenu('Jurmala');
-$daugavpils =$town->addMenu('Daugavpils');
+$riga = $vidzeme->addMenu('Riga');
+$liepaja = $kurzeme->addMenu('Liepaja');
+$ventspils = $kurzeme->addMenu('Ventspils');
+$jurmala = $vidzeme->addMenu('Jurmala');
+$daugavpils =$latgale->addMenu('Daugavpils');
 
 /*$ventspils = $kurzeme->addMenu('Ventspils');
 $liepaja = $kurzeme->addMenu('Liepaja');
