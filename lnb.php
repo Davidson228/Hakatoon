@@ -11,4 +11,4 @@ $button=$app->add(['Button','Add to favourites']);
 $button->link('favorit.php');
 
 $button1=$app->add(['Button','BACK']);
-$button1->link('riga');
+$button1->link('riga.php');
