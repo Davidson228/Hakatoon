@@ -23,6 +23,9 @@ $jelgava =$zemgale->addMenu('Jelgava');
 $oldriga = $riga->add(['Button','Old Riga']);
 $oldriga ->link(['oldriga']);
 
+$ventspils = $kurzeme->add(['Button','Ventspils']);
+$ventspils->link(['ventspils']);
+
 
 
 /*$ventspils = $kurzeme->addMenu('Ventspils');
