@@ -8,7 +8,7 @@ $app->initLayout('Centered');
 $img = 'https://upload.wikimedia.org/wikipedia/commons/a/ad/National_Library_of_Latvia.jpg';
 $image = $app->add(['Image',$img]);
 $image->on('click',function($image){
-  return new \atk4\ui\jsExpression('document.location="lnb.php"');
+  return new \atk4\ui\jsExpression('document.location = "lnb.php"');
 });
 
 
@@ -20,4 +20,4 @@ $app = new \atk4\ui\App('');
 $app->initLayout('Centered');
 $img = '';
 $image = $app->add(['Image',$img]);
-$image->on('click',function($image){*/
+$image->on('click',function($image);*/
