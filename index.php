@@ -1,10 +1,10 @@
 <?php
 require 'vendor/autoload.php';
-$app = new \atk4\ui\App('On a trip around Latvia');
+$app = new \atk4\ui\App('Tour around Latvia');
 $app->initLayout('Centered');
 $menu = $app->add('Menu');
 
-$attractions = $menu->addMenu('Attractions');
+$attractions = $menu->addMenu('Tours');
 
 $county = $attractions->addMenu('County');
 
@@ -20,7 +20,7 @@ $jurmala = $vidzeme->addMenu('Jurmala');
 $daugavpils =$latgale->addMenu('Daugavpils');
 $jelgava =$zemgale->addMenu('Jelgava');
 
-$oldriga = $riga->add(['Button','Oldriga']);
+$oldriga = $riga->add(['Button','Old Riga']);
 $oldriga ->link(['oldriga']);
 
 
