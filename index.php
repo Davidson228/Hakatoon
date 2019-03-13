@@ -21,7 +21,7 @@ $daugavpils =$latgale->addMenu('Daugavpils');
 $jelgava =$zemgale->addMenu('Jelgava');
 
 $oldriga = $riga->add(['Button','Oldriga']);
-$oldriga ->link(['jurmala.php']);
+$oldriga ->link(['jurmala']);
 
 
 
