@@ -9,3 +9,6 @@ $text=$app->add(['Text','The National Library was founded on 29 August 1919, one
 
 $button=$app->add(['Button','Add to favourites']);
 $button->link('favorit.php');
+
+$button1=$app->add(['Button','BACK']);
+$button1->link('riga');

@@ -11,6 +11,8 @@ $image->on('click',function($image){
   return new \atk4\ui\jsExpression('document.location = "lnb.php"');
 });
 
+$button1=$app->add(['Button','BACK']);
+$button1->link('index');
 
 /*require 'vendor/autoload.php';
 session_start();
