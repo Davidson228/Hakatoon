@@ -9,4 +9,4 @@ $img = 'http://www.kurzeme.lv/data/objekti/8-26ratslaukums-gs-3008_2.jpg';
 $image = $app->add(['Image',$img]);
 //$image->on('click',function($image);
 $button1=$app->add(['Button','BACK']);
-$button1->link('index');
+$button1->link('index.php');

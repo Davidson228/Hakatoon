@@ -12,7 +12,7 @@ $image->on('click',function($image){
 });
 
 $button1=$app->add(['Button','BACK']);
-$button1->link('index');
+$button1->link('index.php');
 
 /*require 'vendor/autoload.php';
 session_start();
