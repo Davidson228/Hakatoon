@@ -10,3 +10,14 @@ $image = $app->add(['Image',$img]);
 $image->on('click',function($image){
   return new \atk4\ui\jsExpression('document.location="lnb.php"');
 });
+
+
+/*require 'vendor/autoload.php';
+session_start();
+//$_SESSION['city']=$_GET['city'];
+//$app = new \atk4\ui\App($_SESSION['city']);
+$app = new \atk4\ui\App('');
+$app->initLayout('Centered');
+$img = '';
+$image = $app->add(['Image',$img]);
+$image->on('click',function($image){*/

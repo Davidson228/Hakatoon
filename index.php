@@ -15,27 +15,27 @@ $county = $attractions->addMenu('County');
 
  $kurzeme = $county->addMenu('Kurzeme');
     $ventspils = $kurzeme->addItem('Ventspils');
-    $ventspils->link(['main','city'=>'Ventspils']);
+    $ventspils->link(['ventspils','city'=>'Ventspils']);
     $liepaja = $kurzeme->addItem('Liepaja');
-    $liepaja->link(['main','city'=>'Liepaja']);
-    
+    $liepaja->link(['liepaja','city'=>'Liepaja']);
+
  $vidzeme = $county->addMenu('Vīdzeme');
     $riga = $vidzeme->addItem('Rīga');
-    $riga->link(['main','city'=>'Rīga']);
+    $riga->link(['riga','city'=>'Rīga']);
     $jurmala = $vidzeme->addItem('Jūrmala');
-    $jurmala->link(['main','city'=>'Jūrmala']);
+    $jurmala->link(['jurmala','city'=>'Jūrmala']);
 
  $zemgale = $county->addMenu('Zemgale');
     $jelgava = $zemgale->addItem('Jelgava');
-    $jelgava->link(['main','city'=>'Jelgava']);
+    $jelgava->link(['jelgava','city'=>'Jelgava']);
     $bauska = $zemgale->addItem('Bauska');
-    $bauska->link(['main','city'=>'Bauska']);
+    $bauska->link(['bauska','city'=>'Bauska']);
 
  $latgale = $county->addMenu('Latgale');
     $daugavpils = $latgale->addItem('Daugavpils');
-    $daugavpils->link(['main','city'=>'Daugavpils']);
+    $daugavpils->link(['daugavpils','city'=>'Daugavpils']);
     $rezekne = $latgale->addItem('Rēzekne');
-    $rezekne->link(['main','city'=>'Rēzekne']);
+    $rezekne->link(['rezekne','city'=>'Rēzekne']);
 
 
 
