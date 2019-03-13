@@ -20,8 +20,8 @@ $jurmala = $vidzeme->addMenu('Jurmala');
 $daugavpils =$latgale->addMenu('Daugavpils');
 $jelgava =$zemgale->addMenu('Jelgava');
 
-$oldriga = $riga->addMenu('Old Riga');
-$oldriga = $app->add(['Button','Oldriga']);
+$oldriga = $riga->add(['Button','Oldriga']);
+
 
 
 /*$ventspils = $kurzeme->addMenu('Ventspils');
