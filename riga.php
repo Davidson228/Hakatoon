@@ -22,4 +22,5 @@ $app = new \atk4\ui\App('');
 $app->initLayout('Centered');
 $img = '';
 $image = $app->add(['Image',$img]);
-$image->on('click',function($image);*/
+$button1=$app->add(['Button','BACK']);
+$button1->link('index.php');*/
