@@ -1,5 +1,5 @@
 <?php
-*require 'vendor/autoload.php';
+require 'vendor/autoload.php';
 session_start();
 //$_SESSION['city']=$_GET['city'];
 //$app = new \atk4\ui\App($_SESSION['city']);
