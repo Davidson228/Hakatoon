@@ -37,6 +37,10 @@ $county = $attractions->addMenu('County');
     $rezekne = $latgale->addItem('Rēzekne');
     $rezekne->link(['rezekne','city'=>'Rēzekne']);
 
+    $img = 'https://www.privatetour.com/images/latvia/riga-latvia.jpg';
+
+
+
 
 
 
